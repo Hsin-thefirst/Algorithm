@@ -21,13 +21,12 @@ int binarysearch(const vector<int>& v, int target) {
 }
 
 int main() {
-    vector<int> v = {12, 3, 7, 9, 14, 6 , 11, 2};
+    vector<int> v = {2, 3, 7, 6 ,9, 11, 12, 14};
     int target = 11;
     int result = binarysearch(v, target);
 
     if (result != -1) {
         cout << "Found: " << result << endl;
     }
-
     return 0;
 }
